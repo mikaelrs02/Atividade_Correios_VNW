@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  header {
+    background-color: white;
+    height: auto;
+    width: auto;
+    align-items: center;
+  }
+  .section-header {
+    display: inline-flex;
+  }
+  
+  .nav-header {
+    display: inline-flex;
+    margin: auto;
+    margin-top: 95px;
+  }
+  
+  .li-header {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 15px;
+  }
+  .img-caixa {
+    max-width: 12%;
+    max-height: 90%;
+    display: inline-block;
+  }
+  .info-rastreie {
+    background-color: #f4b418;
+    border-radius: 8%;
+    width: 700px;
+    height: 600px;
+    margin: 50px auto;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .nav-rastreio {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px;
+  }
+  .rastreie {
+    margin-bottom: 50px;
+  }
+  .nome-cep {
+    padding: 3px;
+    font-size: 30px;
+  }
+  #name {
+    background-color: #f4b618;
+    border: 1px solid rgb(141, 141, 141);
+    padding: 10px;
+    font-size: medium;
+    margin-right: 300px;
+    margin-bottom: 13px;
+  }
+  #number {
+    background-color: #f4b618;
+    border: 1px solid rgb(141, 141, 141);
+    padding: 10px;
+    font-size: medium;
+    color: black;
+    margin-right: 300px;
+    margin-bottom: 50px;
+  }
+  .titulodias {
+    margin-right: 100px;
+    font-weight: 800;
+  }
+  .dias {
+    padding: 30px;
+  }
+  .checkbox-dia {
+    margin-left: -25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .loja-retirada {
+    margin-right: 300px;
+    font-weight: 800;
+  }
+  .lojas {
+    padding: 34px;
+  }
+  .radio-loja {
+    margin-left: -30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .enviar {
+    font-size: 18px;
+    display: block;
+    margin: 50px auto;
+    width: 100px;
+    text-align: center;
+    background-color: #0f2398;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+  }
+  .texto {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-left: 220px;
+    padding-right: 220px;
+    margin-bottom: 30px;
+  }
+  .texto-um {
+    background-color: #f4b418;
+    width: 400px;
+    height: 400px;
+    text-align: right;
+    display: inline-flex;
+    padding: 30px;
+    align-items: center;
+  }
+  .texto-dois {
+    display: inline-flex;
+    background-color: #f4b418;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+  } 
+  footer {
+    background-color: #f4b418;
+    width: auto;
+    align-items: center;
+    display: flex;
+  }
+  .img-caminhao {
+    width: 200px;
+    float: left;
+    display: block;
+  }
+  .nav-footer {
+    display: block;
+    text-align: center;
+  }
+  .div-footer-um,
+  .div-footer-dois,
+  .div-footer-tres {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-top: 70px;
+  }
+  .ul-footer {
+    list-style: none;
+  }
+  .li-footer {
+    font-size: 2rem;
+    list-style: none;
+  }
+  .div-footer-tres {
+    margin-top: 10px;
+    padding-right: 20px;
+  }
+  .projeto-create {
+    margin-bottom: 10px;
+    padding-right: 20px;
+  }
+  
